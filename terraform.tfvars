@@ -1,4 +1,7 @@
 # VPC - use these parameters to create new VPC resources
+# 10.0.0.0 - 10.255.255.255 (10/8 접두사)	
+# 172.16.0.0 - 172.31.255.255 (172.16/12 접두사)	
+# 192.168.0.0 - 192.168.255.255 (192.168/16 접두사)	
 cidr = "192.168.0.0/16"
 
 azs = ["ap-northeast-2a", "ap-northeast-2c"]
